@@ -1,0 +1,19 @@
+body {
+	font-family: 'Roboto', sans-serif !important;
+
+	margin: 0;
+}
+
+.container {
+	width: 100% !important;
+
+	padding: 0 !important;
+}
+
+.main {
+	padding: 15px;
+}
+
+.nav-item, .nav-item:hover {
+	text-decoration: none;
+}

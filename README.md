@@ -1,1 +1,1 @@
-# Redux Starter
+# Redux JWT Client

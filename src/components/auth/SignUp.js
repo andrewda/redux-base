@@ -95,6 +95,10 @@ function validate(formProps) {
 		errors.passwordConfirm = 'Enter a password confirmation';
 	}
 
+	if (!/^[a-zA-Z0-9-_.]*$/.test(formProps.username)) {
+		errors.username = 'Enter a valid username (a-z, A-Z, 0-9, - _ .)';
+	}
+
 	if (formProps.email && (formProps.email.indexOf('@') === -1 || formProps.email.indexOf('.') === -1)) {
 		errors.email = 'Enter a valid email';
 	}
